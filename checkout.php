@@ -1,13 +1,7 @@
 <?php
-// require 'config/database.php';
-// require 'config/config.php';
-// $db = new Database();
-// $con = $db->conectar();
-// $stock = 0;
-// $productos = isset($_SESSION['carrito']['productos']) ? $_SESSION['carrito']['productos'] : null;
+
 $lista_carrito = array();
 
-// Simulación de productos en carrito para prueba visual
 $productos = array(
     array("idproducto" => 1, "nombreproducto" => "Producto 1", "precio" => 100, "descuento" => 10, "cantidad" => 2, "stock" => 5),
     array("idproducto" => 2, "nombreproducto" => "Producto 2", "precio" => 200, "descuento" => 5, "cantidad" => 1, "stock" => 10)
